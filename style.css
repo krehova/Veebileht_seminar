@@ -1,0 +1,50 @@
+h1 {
+    color : #0d78c4;
+    font-size : 36px;
+    font-family : Helvetica, sans-serif;
+    }
+    p {
+    color : #3700ff;
+    font-size : 18px;
+    font-family : Georgia, serif;
+    text-align : justify;
+    }
+    img {
+    border : #16e592 solid 2px;
+    box-shadow : 5px 5px 10px #018d4c;
+    }
+    table {
+    border-collapse : collapse;
+    width : 100%;
+    }
+    th, td {
+    border : #000 solid 1px;
+    padding : 8px;
+    text-align : center;
+    }
+    th {
+    background-color : #163f9d;
+    color : #7beff3;
+    font-weight : bold;
+    }
+    tbody tr:nth-child(even) {
+    background-color : #f2f2f2;
+    }
+    tr:hover {
+    background-color : #c0c0c0;
+    }
+    body {
+    background-color : #d83f5b;
+    }
+    .container {
+    display : flex;
+    justify-content : space-between;
+    }
+
+    .newspaper {
+    column-count: 3;
+    }
+  
+    h1, p {
+    margin : 0;
+    }
